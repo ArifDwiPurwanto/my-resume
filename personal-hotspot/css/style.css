@@ -115,6 +115,9 @@ section{padding: 0;}
 .text-yellow {color: #dabd1d;}
 .text-grey {color: #a6a6a6;}
 .text-white {color: #ffffff;}
+.text-blue {color: rgb(8, 31, 92);}
+.text-light-blue {color: #40DFEF;}
+.text-orange {color: rgb(235, 91, 0);}
 
 /* Background color */
 .bg-yellow {background: #dabd1d;}
@@ -390,7 +393,7 @@ header a.logo img {
 }
 
 .sidemenu_btn:hover span {
-    background: #dabd1d;
+    background: #EB5B00; /* #dabd1d */
 }
 
 .sidemenu_btn:hover span:first-child, .sidemenu_btn:hover span:last-child{
@@ -581,7 +584,7 @@ header a.logo img {
 
 .navigation-toggle span{
     width: 25px;
-    background-color: #ffffff;
+    background-color: rgb(8, 31, 92); /* #ffffff */
     height: 2px;
     display: block;
     margin-top: 3px;
@@ -611,7 +614,7 @@ header a.logo img {
 ====================================== */
 
 #pp-nav li .active span, .pp-slidesNav .active span {
-    background-color: #dabd1d;
+    background-color: #eb5b00; /* #dabd1d */
 }
 
 #pp-nav span, .pp-slidesNav span {
@@ -640,7 +643,7 @@ header a.logo img {
    Banner
 ====================================== */
 .slider-area{
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner-white.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -659,8 +662,8 @@ header a.logo img {
 }
 
 .slider-text {
-    background-color: #ffffff;;
-    color: #2b3033;
+    background-color: rgb(8, 31, 92); /* #ffffff */
+    color: #ffffff; /* #2b3033 */
 }
 
 .slider-area{
@@ -747,7 +750,7 @@ header a.logo img {
     content: "";
     height: 25px;
     width: 25px;
-    background-color: #dabd1d;
+    background-color: #EB5B00; /* #dabd1d */
     border-radius: 50%;
     position: absolute;
     top: 5px;
@@ -805,7 +808,7 @@ header a.logo img {
 ====================================== */
 
 .skills{
-    background-image: url("../images/skills-bg.jpg");
+    background-image: url("../images/skills-bg-white.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -844,7 +847,7 @@ header a.logo img {
 ====================================== */
 
 .timeline-bg{
-    background-image: url("../images/timeline.jpg");
+    background-image: url("../images/timeline-white-1.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -873,7 +876,7 @@ header a.logo img {
     list-style: none;
 }
 .cd-timeline-navigation a:hover {
-    border-color:#dabd1d;
+    border-color: rgb(235, 91, 0); /* #dabd1d */
 }
 .cd-horizontal-timeline a, .cd-horizontal-timeline a:hover, .cd-horizontal-timeline a:focus{ color:#ffffff;}
 
@@ -954,7 +957,7 @@ header a.logo img {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #dabd1d;
+    background-color: rgb(235, 91, 0); /* #dabd1d */
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
     -ms-transform: scaleX(0);
@@ -1011,12 +1014,12 @@ header a.logo img {
     pointer-events: none;
 }
 .cd-horizontal-timeline .events a.selected::after {
-    background-color: #dabd1d;
-    border-color: #dabd1d;
+    background-color: rgb(235, 91, 0); /* #dabd1d */ 
+    border-color: rgb(235, 91, 0); /* #dabd1d */
 }
 .cd-horizontal-timeline .events a.older-event::after {
-    border-color: #dabd1d;
-    background-color: #dabd1d;
+    border-color: rgb(235, 91, 0); /* #dabd1d */
+    background-color: rgb(235, 91, 0); /* #dabd1d */
 }
 @media only screen and (min-width: 1100px) {
     .cd-horizontal-timeline::before {
@@ -1873,7 +1876,7 @@ header a.logo img {
     html {scroll-behavior: smooth;}
     section {padding: 6rem 0;}
     .h1, h1 {font-size: 36px;}
-    .h2, h2 {font-size: 36px;}
+    .h2, h2 {font-size: 30px;}
     .h3, h3 {font-size: 24px;}
     p {font-size: 14px;line-height: 20px;}
     .skills, .timeline-bg, .portfolio-bg, .testimonial-bg, .contact-bg {height: auto;}
